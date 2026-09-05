@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "edge:start": "sh scripts/start-edge-cdp.sh",
-    "collect": "node scripts/collect.mjs",
+    "collect": "node scripts/collect.mjs --edge-cookies",
     "collect:edge": "node scripts/collect.mjs --cdp",
     "extract": "python3 fetch_explore.py --html-file staging/explore.html --json-output staging/collection.json --output staging/extracted.md",
     "publish": "sh scripts/publish.sh"

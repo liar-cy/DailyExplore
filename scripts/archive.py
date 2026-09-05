@@ -15,8 +15,8 @@ def archive(data, root):
     repos = data.get('repositories', [])
     if not isinstance(repos, list):
         raise ValueError('repositories must be a list')
-    if status == 'complete' and not repos:
-        raise ValueError('complete requires at least one recommendation')
+    if status == 'complete' and (not repos or data.get('personalized') is not True):
+        raise ValueError('complete requires verified personalized recommendations')
     if 'personalized' in data and not isinstance(data['personalized'], bool):
         raise ValueError('personalized must be true or false')
     if status != 'complete' and not data.get('notes'):

@@ -1,11 +1,15 @@
 import { chromium } from 'playwright';
 import { mkdir, writeFile } from 'node:fs/promises';
+import { execFile } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { promisify } from 'node:util';
 import path from 'node:path';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const login = process.argv.includes('--login');
 const cdp = process.argv.includes('--cdp');
+const edgeCookies = process.argv.includes('--edge-cookies');
+const execFileAsync = promisify(execFile);
 await mkdir(path.join(root, 'staging'), { recursive: true });
 let browser;
 let context;
@@ -22,6 +26,13 @@ if (cdp) {
 }
 const page = context.pages()[0] || await context.newPage();
 try {
+  if (edgeCookies) {
+    const { stdout } = await execFileAsync('python3', [
+      path.join(root, 'scripts/read_edge_cookies.py'),
+    ], { maxBuffer: 1024 * 1024 });
+    const cookies = JSON.parse(stdout);
+    await context.addCookies(cookies);
+  }
   await page.goto('https://github.com/explore', { waitUntil: 'domcontentloaded', timeout: 45000 });
   await page.locator('main').waitFor({ timeout: 20000 });
   console.log('Page:', await page.title(), page.url());
@@ -44,8 +55,9 @@ try {
       ...pageInfo,
       observed_at: new Date().toISOString(),
     }, null, 2) + '\n'),
-    page.screenshot({ path: path.join(root, 'staging/explore.png'), fullPage: true }),
   ]);
+  await page.screenshot({ path: path.join(root, 'staging/explore.png'), fullPage: true, timeout: 60000 })
+    .catch(error => console.warn(`Screenshot skipped: ${error.message}`));
   console.log('Saved Explore text, HTML, page metadata, and screenshot in staging/');
 } finally {
   // A CDP connection belongs to the user-started Edge process. Let this Node

@@ -5,3 +5,4 @@ staging/
 node_modules/
 .browser-profile/
 .edge-cdp-profile/
+.edge-auth-profile/
