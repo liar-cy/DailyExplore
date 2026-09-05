@@ -15,8 +15,10 @@ def archive(data, root):
     repos = data.get('repositories', [])
     if not isinstance(repos, list):
         raise ValueError('repositories must be a list')
-    if status == 'complete' and (not repos or data.get('personalized') is not True):
-        raise ValueError('complete requires verified personalized recommendations')
+    if status == 'complete' and not repos:
+        raise ValueError('complete requires at least one recommendation')
+    if 'personalized' in data and not isinstance(data['personalized'], bool):
+        raise ValueError('personalized must be true or false')
     if status != 'complete' and not data.get('notes'):
         raise ValueError('partial/blocked requires notes')
     seen = set()
@@ -36,8 +38,9 @@ def archive(data, root):
     folder = Path(root) / now.strftime('%Y-%m-%d') / now.strftime('%H%M%S-%f')
     folder.mkdir(parents=True, exist_ok=False)
     (folder / 'data.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    scope = '个性化推荐' if data.get('personalized') else '公开 Explore 推荐'
     lines = [f'# GitHub Explore 日报 · {now:%Y-%m-%d}', '',
-             f'状态：{status} ｜ 项目数：{len(repos)}', '',
+             f'状态：{status} ｜ 来源：{scope} ｜ 项目数：{len(repos)}', '',
              '[推荐来源](https://github.com/explore)', '', str(data.get('notes', '')), '']
     for i, repo in enumerate(repos, 1):
         lines += [f'## {i}. [{repo["name"]}]({repo["url"]})', '', repo['summary'], '']

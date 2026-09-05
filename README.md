@@ -1,6 +1,6 @@
 # GitHub Explore 每日归档
 
-Playwright 使用独立的 Microsoft Edge 登录资料读取 Explore 页面；Codex 每日任务逐个阅读仓库并生成中文分析，最终自动提交到本仓库。
+Playwright 读取 GitHub Explore 页面；Codex 每日任务逐个阅读仓库并生成中文分析，最终自动提交到本仓库。默认可归档公开 Explore 推荐，完成一次登录后会归档个性化推荐，并在报告中明确标记来源。
 
 ```sh
 npm ci
@@ -27,7 +27,7 @@ npm run collect:edge
 - `reports/日期/运行时间/report.md`：可阅读日报。
 - `reports/日期/运行时间/data.json`：结构化记录。
 
-完整流程需要 Codex 桌面应用的每日任务和可用的已登录浏览器资料。登录资料仅保存在被忽略的本地目录，不会提交 Cookie 或密码。
+完整流程需要 Codex 桌面应用的每日任务。若使用登录后的个性化推荐，登录资料仅保存在被忽略的本地目录，不会提交 Cookie 或密码。
 
 已创建 Codex 项目任务「GitHub Explore 每日推荐归档」（ID：github-explore-2），默认北京时间每天 09:00 执行。运行时需保持电脑开启、Codex 桌面应用运行且专用浏览器资料已登录 GitHub。可在应用的定时任务中调整时间或暂停。
 
