@@ -1,0 +1,5 @@
+__pycache__/
+staging/
+node_modules/
+.browser-profile/
+.edge-cdp-profile/
