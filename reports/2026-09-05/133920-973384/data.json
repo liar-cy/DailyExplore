@@ -1,0 +1,118 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-09-05T13:33:57.316495+08:00",
+  "notes": "使用 liar-cy 在 Microsoft Edge 中的有效 GitHub 登录 Cookie 采集；页面显示登录后的“Here's what we found based on your interests...”个性化推荐区域，并到达“That's everything we found for you, for now.”末尾。按页面顺序完整取得 9 个仓库，已排除文章、主题、赞助、应用、合集和导航链接，并逐项读取 About 与默认分支 README。",
+  "repositories": [
+    {
+      "name": "yutiansut/QUANTAXIS",
+      "url": "https://github.com/yutiansut/QUANTAXIS",
+      "summary": "面向股票、期货和期权的本地量化研究与交易框架，覆盖行情获取、因子研究、策略回测、模拟及实盘交易、多账户和可视化。2.1 版本加入 Rust 核心桥接以提升账户操作与回测性能。",
+      "use_cases": "国内多市场量化数据研究、策略回测、模拟交易和实盘账户管理",
+      "highlights": "模块覆盖完整，支持任务调度与分布式部署，并提供 QIFI 统一账户体系和 Rust 加速层",
+      "language": "Python",
+      "stars": 11089,
+      "license": "MIT",
+      "recommendation_reason": "基于你 Star 过的仓库",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "backstage/backstage",
+      "url": "https://github.com/backstage/backstage",
+      "summary": "由 CNCF 托管的开放式开发者门户框架，用统一的软件目录、模板、文档和插件界面整合组织内部的基础设施与开发工具。",
+      "use_cases": "构建企业内部开发者门户、服务目录、自助式工程平台和统一文档入口",
+      "highlights": "插件生态成熟，适合微服务治理和改善开发者体验，可按组织需求扩展",
+      "language": "TypeScript",
+      "stars": 34333,
+      "license": "Apache-2.0",
+      "recommendation_reason": "基于你关注的人",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "wangshub/RL-Stock",
+      "url": "https://github.com/wangshub/RL-Stock",
+      "summary": "以教学实验形式展示如何把股票交易建模为 OpenAI Gym 强化学习环境，将开高低收、成交量等行情作为状态，以买入、持有、卖出作为动作并用收益设计奖励。",
+      "use_cases": "学习强化学习交易环境、策略梯度和股票历史数据模拟实验",
+      "highlights": "从监督学习与强化学习差异讲起，包含状态归一化、动作空间、奖励函数和实验代码",
+      "language": "Jupyter Notebook",
+      "stars": 3744,
+      "license": "MIT",
+      "recommendation_reason": "基于你 Star 过的仓库",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "nooperpudd/ctpwrapper",
+      "url": "https://github.com/nooperpudd/ctpwrapper",
+      "summary": "为上海期货交易所 CTP 接口提供 Python 封装，使 Python 程序可以连接期货行情和交易 API，并附带安装包、演示代码与接口文档。",
+      "use_cases": "开发国内期货行情接入、下单交易、量化策略与 CTP 集成程序",
+      "highlights": "直接封装 CTP 原生接口，README 标明支持 Linux/Windows 64 位，并提供示例与 CTP 文档",
+      "language": "Python",
+      "stars": 605,
+      "license": "LGPL-3.0",
+      "recommendation_reason": "基于你 Star 过的仓库",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "shinnytech/tqsdk-python",
+      "url": "https://github.com/shinnytech/tqsdk-python",
+      "summary": "信易科技维护的 Python 量化交易开发包，以较少代码提供期货、期权和股票的历史与实时数据、策略回测、模拟交易、实盘交易、监控和风险管理。",
+      "use_cases": "编写期货量化策略、订阅实时行情、回测并连接实盘账户",
+      "highlights": "端到端覆盖数据到交易，提供目标持仓等高级任务组件，并支持 AI/Agent 调用场景",
+      "language": "Python",
+      "stars": 4995,
+      "license": "Apache-2.0",
+      "recommendation_reason": "基于你 Star 过的仓库",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "armbian/build",
+      "url": "https://github.com/armbian/build",
+      "summary": "Armbian 官方操作系统镜像构建框架，可从 Debian 或 Ubuntu 组装适用于单板机和嵌入式设备的完整系统，控制内核、U-Boot、固件、设备树和根文件系统。",
+      "use_cases": "为 ARM、ARM64、RISC-V 或 x86 设备定制 Armbian 镜像、内核和启动环境",
+      "highlights": "支持原生、交叉和容器化构建，覆盖多架构、开发测试和自动化生产流程",
+      "language": "Shell",
+      "stars": 5398,
+      "license": "GPL-2.0",
+      "recommendation_reason": "基于你关注的人",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "zhangxiangliang/stock-api",
+      "url": "https://github.com/zhangxiangliang/stock-api",
+      "summary": "统一查询 A 股、港股、美股和场内基金行情的 TypeScript 工具，支持 Node.js、浏览器、CLI、MCP 与通用 AI Agent 等多种接入方式。",
+      "use_cases": "在应用、命令行或 Agent 中查询跨市场股票价格与行情数据",
+      "highlights": "零运行时依赖，提供 TypeScript 类型、CLI 与 MCP 工具，并可在腾讯、新浪、东方财富数据源间自动兜底",
+      "language": "TypeScript",
+      "stars": 1844,
+      "license": "MIT",
+      "recommendation_reason": "基于你 Star 过的仓库",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "summary": "跨平台开源参数化三维建模器，可通过模型历史和约束参数反复修改设计，并支持从二维草图生成三维对象及从模型提取工程细节。",
+      "use_cases": "机械设计、建筑与 BIM、有限元分析、CAM、3D 打印和工程制图",
+      "highlights": "功能模块广、支持参数化建模和 Python 扩展，可在 Windows、macOS 与 Linux 运行",
+      "language": "C++",
+      "stars": 33272,
+      "license": "LGPL-2.1",
+      "recommendation_reason": "基于你关注的人",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "OpenGithubs/github-monthly-rank",
+      "url": "https://github.com/OpenGithubs/github-monthly-rank",
+      "summary": "按月归档 GitHub 开源项目增长榜的内容仓库，每月整理热度上升较快的项目并发布 Top 30，便于持续发现近期受到关注的开源工具。",
+      "use_cases": "浏览月度热门开源项目、跟踪趋势和寻找选题或技术项目",
+      "highlights": "按月持续更新，关联 Discover/OpenGithub 社区及日榜、周刊和月刊资源",
+      "language": null,
+      "stars": 1534,
+      "license": null,
+      "recommendation_reason": "基于你 Star 过的仓库",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-09-05T13:39:20.973384+08:00",
+  "source": "https://github.com/explore"
+}
