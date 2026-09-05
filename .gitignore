@@ -1,4 +1,6 @@
 __pycache__/
+.DS_Store
+explore_repos.md
 staging/
 node_modules/
 .browser-profile/

@@ -29,7 +29,7 @@ npm run collect:edge
 
 完整流程需要 Codex 桌面应用的每日任务和可用的已登录浏览器资料。登录资料仅保存在被忽略的本地目录，不会提交 Cookie 或密码。
 
-已创建每日调度「GitHub Explore 每日推荐归档」（ID：github-explore），默认北京时间每天 09:00，在当前任务中执行。运行时需保持电脑开启、桌面应用运行且浏览器连接可用。可在应用的定时任务中调整时间或暂停。
+已创建 Codex 项目任务「GitHub Explore 每日推荐归档」（ID：github-explore-2），默认北京时间每天 09:00 执行。运行时需保持电脑开启、Codex 桌面应用运行且专用浏览器资料已登录 GitHub。可在应用的定时任务中调整时间或暂停。
 
 手动执行：让 Codex 按本项目 `workflow.md` 运行一次。已有分析 JSON 可直接发布：
 
