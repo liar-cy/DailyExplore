@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-09-17T09:10:20.656270+08:00",
+  "notes": "已确认登录用户 liar-cy；页面显示基于兴趣、已加星仓库、关注者和浏览记录生成的个性化推荐，并已滚动至页面末尾。按页面顺序覆盖全部 10 个推荐仓库；排除了文章、主题、赞助、应用、导航链接及 Trending 内容。",
+  "repositories": [
+    {
+      "name": "akfamily/awesome-data",
+      "url": "https://github.com/akfamily/awesome-data",
+      "summary": "面向金融数据研究者的资源清单，汇总中国及全球的开放数据工具、金融数据 SDK、公共数据源和商业数据平台，便于按研究需求寻找数据入口。",
+      "use_cases": "量化研究的数据源选型、金融数据接口调研、寻找股票与宏观经济数据资源。",
+      "highlights": "按开放工具、金融数据 SDK、公共数据源和商业数据源分类；列出 AKShare、JQData、FRED 等资源，并用简短说明标注用途。",
+      "language": null,
+      "stars": 697,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "microsoft/winget-pkgs",
+      "url": "https://github.com/microsoft/winget-pkgs",
+      "summary": "Windows Package Manager 的社区清单仓库，维护软件包 manifest，作为 winget 默认源的一部分，为应用发现、安装和版本发布提供结构化元数据。",
+      "use_cases": "Windows 软件包分发、维护应用 manifest、提交新软件或新版本、研究包管理仓库的校验与发布流程。",
+      "highlights": "包含大量按包组织的 manifest；README 说明支持的安装器格式、manifest 编写和测试、提交流程，并配有验证与发布流水线。",
+      "language": null,
+      "stars": 11085,
+      "license": "MIT",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "datawhalechina/agent-tutorial",
+      "url": "https://github.com/datawhalechina/agent-tutorial",
+      "summary": "Datawhale 编写的 Agent 实践教程，通过原理讲解和动手项目帮助学习者理解 Agent，并以 ModelScope Agent 为例开发日程规划助手。",
+      "use_cases": "入门 Agent 原理、学习环境配置、练习调用开放 API 构建助手、梳理 Agent 应用设计思路。",
+      "highlights": "内容分为 Agent 入门、日程规划助手实践和应用展望三章；教程强调实践导向，并配套具体学习活动和文档。",
+      "language": null,
+      "stars": 423,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve viewed",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "JoinQuant/jqdatasdk",
+      "url": "https://github.com/JoinQuant/jqdatasdk",
+      "summary": "聚宽提供的 Python 量化金融数据包，用于认证并获取中国金融市场的行情、基础信息、因子、指标和风险模型数据，支持本地化研究环境。",
+      "use_cases": "中国股票及其他交易品种的数据研究、因子开发、策略回测前的数据准备、学术研究和量化机构的数据服务接入。",
+      "highlights": "提供跨市场统一 API、年/月/周/分钟/Tick 等频率数据，以及 Alpha 因子、技术指标、资金流和风险模型；README 还介绍了数据清洗、监控和高可用服务。",
+      "language": "Python",
+      "stars": 1398,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "summary": "跨平台、开源的参数化 3D 建模器，用于设计真实物体；可从受约束的 2D 草图构建 3D 模型，并生成生产级工程图。",
+      "use_cases": "机械工程、产品设计、建筑与 BIM、3D 打印、有限元相关工作，以及教学和个人 CAD 建模。",
+      "highlights": "参数化建模支持通过模型历史修改尺寸；基于 OpenCASCADE 几何内核，使用 Coin3D、Qt，并提供 Python API；支持 Windows、macOS 和 Linux。",
+      "language": "C++",
+      "stars": 33576,
+      "license": "LGPL-2.1",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "zillionare/zillionare",
+      "url": "https://github.com/zillionare/zillionare",
+      "summary": "“匡醍量化/大富翁量化”相关仓库，定位于量化投资研究与 Python 量化交易实战，并将仓库与量化资源、教程和持续更新的研究文章连接起来。",
+      "use_cases": "学习 Python 量化交易、研究因子与回测、了解量化研究实践，以及跟进量化和 AI 工具文章。",
+      "highlights": "README 以量化投资研究和 Python 实战为主线，链接博客与最新文章；仓库主题覆盖 AkShare、Backtrader、Talib、回测和量化交易等。",
+      "language": "Python",
+      "stars": 315,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "abseil/abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "summary": "Google 开源的 C++ 通用库集合，用于补充 C++ 标准库并提供经过生产验证的实用组件，兼容 C++17。",
+      "use_cases": "C++ 应用和基础设施开发、替代或补充标准库能力、构建容器/字符串/时间/同步/日志等底层组件。",
+      "highlights": "包含容器、算法、内存、随机数、状态、字符串、时间、同步等模块；官方支持 Bazel 和 CMake，并提供 Quickstart、兼容性政策和长期支持版本。",
+      "language": "C++",
+      "stars": 18137,
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "LightingFx/hs300_stock_predict",
+      "url": "https://github.com/LightingFx/hs300_stock_predict",
+      "summary": "针对沪深 300 股票的预测项目，覆盖股票数据下载、清洗与合并、LSTM 训练和微调、测试评估以及实时预测。",
+      "use_cases": "学习股票时序数据处理、搭建 LSTM 预测实验、练习训练/验证/测试流程和基于历史数据的次日收盘价预测。",
+      "highlights": "按 data_utils、dataprocess、config、lstm_model 和主程序拆分；支持缺失交易日填充、批量训练、F1/准确率测试和模型微调，并附有相关论文链接。",
+      "language": "Python",
+      "stars": 448,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "langchain-ai/retrieval-agent-template-js",
+      "url": "https://github.com/langchain-ai/retrieval-agent-template-js",
+      "summary": "基于 LangGraph.js 和 LangGraph Studio 的检索 Agent 起始模板，示范将文档按 userId 建索引，再依据用户查询和对话上下文检索并生成回答。",
+      "use_cases": "快速搭建检索增强问答原型、学习 LangGraph 图结构、验证多租户数据隔离，以及替换向量存储和模型进行定制。",
+      "highlights": "包含 index 和 retrieval 两个图；支持 Elasticsearch、MongoDB、Pinecone 等检索后端，提供可替换的嵌入模型、响应模型、搜索参数和节点扩展点。",
+      "language": "TypeScript",
+      "stars": 33,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "google/perfetto",
+      "url": "https://github.com/google/perfetto",
+      "summary": "生产级系统追踪、性能分析和 trace 分析工具套件，通过采集系统与应用行为帮助定位功能和性能问题，并支持 SQL 分析和浏览器可视化。",
+      "use_cases": "Android/Chromium 性能调试、C/C++ 应用插桩、Linux 内核与系统分析、CPU/内存 profiling、SRE 性能调查。",
+      "highlights": "提供高性能 tracing daemon、C++17 SDK、Android/Linux 系统探针、本地浏览器 UI 和 SQL 分析引擎；可处理多 GB trace，并支持多种外部 trace 格式。",
+      "language": "C++",
+      "stars": 6514,
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-09-17T09:24:11.321629+08:00",
+  "source": "https://github.com/explore"
+}
