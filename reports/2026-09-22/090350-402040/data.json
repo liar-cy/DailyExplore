@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-09-22T09:01:04.056291+08:00",
+  "notes": "已确认登录用户 liar-cy；页面显示基于已加星仓库、已加星主题、已查看仓库和关注者生成的个性化推荐，并已到达页面末尾。按页面顺序覆盖全部 10 个推荐仓库；排除了文章、主题、GitHub staff 推荐的应用、集合、导航链接及 Trending 内容。已逐个阅读全部仓库主页 About 和可见 README。",
+  "repositories": [
+    {
+      "name": "uname-yang/pysnowball",
+      "url": "https://github.com/uname-yang/pysnowball",
+      "summary": "面向雪球 API 的 Python 股票数据接口库，需要配置雪球 token 后调用行情、K 线、资金流向、财务指标、融资融券等数据接口。",
+      "use_cases": "适合获取雪球股票数据、搭建行情与基本面研究脚本，以及为量化分析原型提供数据接口。",
+      "highlights": "提供实时行情、详细报价、分笔、K 线、业绩预告、机构评级、资金流向、大宗交易和财务指标等 API；README 明确说明 token 需由用户自行获取。",
+      "language": "Python",
+      "stars": 1851,
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "langchain-ai/retrieval-agent-template-js",
+      "url": "https://github.com/langchain-ai/retrieval-agent-template-js",
+      "summary": "基于 LangGraph.js 的检索式问答 Agent 模板，提供索引图和检索图，用用户 ID 隔离文档并结合会话历史生成回答。",
+      "use_cases": "适合快速搭建个人文档问答、带用户隔离的 RAG 原型，以及在 LangGraph Studio 中学习检索 Agent 的图结构。",
+      "highlights": "包含 index 和 retrieval 两个图；支持切换 Elasticsearch、MongoDB、Pinecone 等检索器，并可调整嵌入模型、检索参数、响应模型和图节点。",
+      "language": "TypeScript",
+      "stars": 33,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "shidenggui/easyquant",
+      "url": "https://github.com/shidenggui/easyquant",
+      "summary": "基于 easytrader 和 easyquotation 的 Python 量化交易框架，结合借鉴 vn.py 的事件引擎，覆盖行情获取、策略编写和交易接入。",
+      "use_cases": "适合学习行情驱动的量化框架、编写股票策略、接入支持的券商或模拟盘，以及使用免费行情进行实验。",
+      "highlights": "支持新浪实时行情、集思路分级基金和 leverfun 十档行情；交易侧支持华泰、佣金宝、银河及雪球模拟盘，策略可放入 strategies 目录。",
+      "language": "Python",
+      "stars": 3679,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "akfamily/awesome-data",
+      "url": "https://github.com/akfamily/awesome-data",
+      "summary": "金融领域数据源导航，整理开放数据工具、金融数据服务商和股票、基金、宏观及另类数据入口。",
+      "use_cases": "适合量化研究、金融数据调研、寻找股票与宏观数据接口，以及按主题比较不同数据源。",
+      "highlights": "README 汇总 AKShare、TuShare、Yfinance、pandas-datareader、World Bank、Quandl、Investing.com 等工具和服务，并持续接受数据源补充。",
+      "language": null,
+      "stars": 697,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "hi-weijun/PythonDataScience-Collections",
+      "url": "https://github.com/hi-weijun/PythonDataScience-Collections",
+      "summary": "中文 Python 数据科学资源汇总，覆盖 Python 基础、爬虫、可视化、数据分析、机器学习、数据库、大数据、Tableau、统计学和地理信息。",
+      "use_cases": "适合数据科学入门与查资料、系统学习 Python 数据分析工具链，以及寻找量化、数据集和接口相关资源。",
+      "highlights": "README 按主题组织大量教程、文档、课程、工具和数据集链接，涵盖从 Python 基础到机器学习、量化和地理空间分析的学习路径。",
+      "language": null,
+      "stars": 2824,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "FoundationAgents/MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "summary": "多智能体框架，把产品经理、架构师、项目经理和工程师等角色组织成协作团队，从自然语言需求产出用户故事、竞品分析、需求、数据结构、API 和文档。",
+      "use_cases": "适合研究多 Agent 协作、自动化软件开发流程、需求到代码的原型生成，以及构建带角色分工和 SOP 的 LLM 应用。",
+      "highlights": "以“Code = SOP(Team)”为核心，将软件公司的角色和流程编排为多智能体系统，并配套研究论文、示例能力和扩展文档。",
+      "language": "Python",
+      "stars": 70544,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve viewed",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "servo/servo",
+      "url": "https://github.com/servo/servo",
+      "summary": "用 Rust 编写的并行浏览器引擎原型，目标是提供轻量、高性能、可嵌入的 Web 技术实现。",
+      "use_cases": "适合研究浏览器引擎、Web 平台实现和 Rust 系统开发，也适合在应用中探索嵌入式 Web 内容渲染。",
+      "highlights": "面向 macOS、Linux、Windows、OpenHarmony 和 Android 等 64 位平台开发，仓库包含引擎、构建工具、测试和 Web 标准相关组件，并提供 Servo Book。",
+      "language": "Rust",
+      "stars": 38024,
+      "license": "MPL-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "OWD-AI/AutoAgents",
+      "url": "https://github.com/OWD-AI/AutoAgents",
+      "summary": "IJCAI 2024 的自动 Agent 生成实验框架，由 LLM 根据目标生成不同专家角色并组成协作多智能体。",
+      "use_cases": "适合研究自动角色生成、规划与反思机制、多 Agent 任务协作，以及构建可扩展的 Agent 实验原型。",
+      "highlights": "包含 Planner、Tools、Observers 和 Agents 等模块；Planner 负责角色与计划，Observers 对 Agent、计划和动作进行反思检查，并提供 AgentBank 自定义 Agent 集合。",
+      "language": "Python",
+      "stars": 1494,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve viewed",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "FreeCAD/FreeCAD",
+      "url": "https://github.com/FreeCAD/FreeCAD",
+      "summary": "FreeCAD 官方源码，提供跨平台、开源的参数化 3D 建模器，用参数化历史修改设计并生成工程图。",
+      "use_cases": "适合产品设计、机械工程、建筑、BIM、有限元和 3D 打印，也适合学生、教师和开发者进行 CAD 建模与二次开发。",
+      "highlights": "支持从受约束的 2D 草图构建 3D 对象并反向生成生产图纸，运行于 Windows、macOS 和 Linux，并提供工作台、文档、论坛和开发者手册。",
+      "language": "C++",
+      "stars": 33696,
+      "license": "LGPL-2.1",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "meshtastic/firmware",
+      "url": "https://github.com/meshtastic/firmware",
+      "summary": "Meshtastic 官方设备固件，为无需互联网或蜂窝网络的开源 LoRa 离线网状通信系统提供多硬件平台支持。",
+      "use_cases": "适合户外远距离通信、应急准备、远程作业和物联网节点部署，也适合在 ESP32、nRF52、RP2040/RP2350 及 Linux 设备上构建和刷写固件。",
+      "highlights": "支持文本消息、位置共享和遥测，通过去中心化 Mesh 网络通信；README 列出构建和刷写入口，覆盖 ESP32、nRF52、RP2040/RP2350 等平台。",
+      "language": "C++",
+      "stars": 8325,
+      "license": "GPL-3.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-09-22T09:03:50.402040+08:00",
+  "source": "https://github.com/explore"
+}
