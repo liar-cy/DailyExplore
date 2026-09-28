@@ -1,0 +1,124 @@
+# GitHub Explore 日报 · 2026-09-28
+
+状态：complete ｜ 来源：个性化推荐 ｜ 项目数：10
+
+[推荐来源](https://github.com/explore)
+
+已确认登录用户 liar-cy；page.json 的 logged_in 为 true，Explore 正文显示基于已加星仓库、关注的人和已查看仓库的个性化推荐，并到达 That’s everything we found for you, for now. 页面末尾。按页面顺序采集并阅读了全部 10 个推荐仓库的主页 About 和可见 README；已排除文章、主题、赞助、应用、集合、视频和导航链接，也未采用公开 Trending 内容。
+
+## 1. [Barca0412/Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance)
+
+面向量化研究者和学习者的中文知识库，覆盖多因子股票量化投研框架、AI+Finance 论文雷达，以及量化数据、回测、因子挖掘和课程等资源整理。
+
+- 适用场景：适合系统学习量化投研、跟踪 AI+Finance 论文趋势、查找量化工具和研究资料，以及搭建个人量化研究知识入口。
+- 主要特点：README 提供多因子教程、工作日更新的 arXiv Radar、文档站和结构化资源地图；内容以教程与资料汇编为主，并支持通过 Discussions 贡献。
+- 主要语言：Python
+- Stars（采集时）：1776
+- 许可证：MIT License
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 2. [netdata/netdata](https://github.com/netdata/netdata)
+
+Netdata 是开源实时基础设施监控平台，以每秒级指标、可视化、异常检测和分布式采集帮助定位系统与服务问题。
+
+- 适用场景：适合监控服务器、容器、数据库和云基础设施，进行实时运维观察、故障排查、容量分析和边缘侧异常检测。
+- 主要特点：README 强调零配置发现、低资源消耗、边缘侧机器学习异常检测、长期存储和交互式仪表盘，并支持 Linux、macOS、FreeBSD 和 Windows。
+- 主要语言：Go
+- Stars（采集时）：80675
+- 许可证：GPL-3.0 License
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 3. [armbian/build](https://github.com/armbian/build)
+
+Armbian Linux Build Framework 用于从 Debian 或 Ubuntu 构建面向单板机和嵌入式设备的可定制系统镜像，覆盖内核、引导加载器和根文件系统。
+
+- 适用场景：适合为 ARM/ARM64、RISC-V 或 x86 设备制作定制 Linux 镜像，用于开发、测试、生产部署和自动化构建。
+- 主要特点：README 说明支持原生、交叉编译和容器化构建，覆盖 x86_64、aarch64、armhf、riscv64，并提供内核、固件、设备树和系统优化配置。
+- 主要语言：Shell
+- Stars（采集时）：5449
+- 许可证：GPL-2.0 License
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 4. [DemonDamon/FinnewsHunter](https://github.com/DemonDamon/FinnewsHunter)
+
+FinnewsHunter 是基于 AgenticX 的多智能体金融新闻分析平台，实时汇聚新闻并结合情绪、市场影响、知识图谱和量化分析挖掘投资信号。
+
+- 适用场景：适合金融新闻监测、A 股研究、情绪与事件分析、投资决策辅助，以及需要将多智能体和向量检索结合到金融系统的原型或部署场景。
+- 主要特点：README 展示 NewsAnalyst 等多智能体协作、多家大模型提供商、批量新闻处理、AkShare 行情与 K 线、FastAPI+React、PostgreSQL+Milvus+Redis 以及 Docker Compose 部署。
+- 主要语言：Python
+- Stars（采集时）：1494
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 5. [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents)
+
+Agents 2.0 是面向数据中心、自我演化语言智能体的框架，把 agent pipeline 类比为神经网络计算图，用符号学习优化提示词、工具使用和多智能体流程。
+
+- 适用场景：适合研究 agent 训练、语言损失与反馈优化、提示词搜索、多智能体协作，以及构建可通过执行轨迹持续改进的实验系统。
+- 主要特点：README 介绍前向执行、轨迹记录、语言损失、反向传播、语言梯度和符号组件更新，并提供项目、论文、文档和多智能体优化入口。
+- 主要语言：Python
+- Stars（采集时）：5964
+- 许可证：Apache License 2.0
+- 页面推荐原因：Based on repositories you've viewed
+- 阅读状态：About 和 README 已读
+
+## 6. [uname-yang/pysnowball](https://github.com/uname-yang/pysnowball)
+
+pysnowball 是雪球 APP 的 Python 数据接口封装，通过用户提供的雪球令牌访问股票实时行情、财务和相关市场数据。
+
+- 适用场景：适合个人量化研究、获取雪球股票数据、编写行情分析脚本和快速验证数据驱动的投资研究原型。
+- 主要特点：README 提供令牌设置方式和实时行情调用示例，并列出报价、财务等 API；使用前需要自行获取并配置雪球 token。
+- 主要语言：Python
+- Stars（采集时）：1853
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 7. [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
+
+winget-pkgs 是 Windows Package Manager 的社区清单仓库，集中维护应用包的 manifest，供 WinGet 默认源发现和安装软件。
+
+- 适用场景：适合维护或提交 Windows 软件包清单、参与 WinGet 社区打包、测试 manifest，以及支持 Windows 应用分发自动化。
+- 主要特点：README 说明支持 MSIX、MSI、APPX、MSIXBundle、APPXBundle 和 exe 等安装器类型，提供清单编写、测试、提交及新包请求文档，并有验证和发布流水线。
+- Stars（采集时）：11115
+- 许可证：MIT License
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 8. [shinnytech/tqsdk-python](https://github.com/shinnytech/tqsdk-python)
+
+TqSdk 是面向期货、期权和股票量化交易的 Python 开发包，提供历史与实时数据、策略回测、模拟交易、实盘交易、运行监控和风险管理能力。
+
+- 适用场景：适合编写期货和多品种量化策略，进行 Tick/K 线回测、模拟盘验证、实盘接入、技术指标分析和多账户交易。
+- 主要特点：README 介绍 Diff 协议架构、公司级历史数据、多账户、期货公司接入、CTP、模拟交易、Tick/K 线回测、指标函数，以及面向 AI/Agent 的文档支持。
+- 主要语言：Python
+- Stars（采集时）：5056
+- 许可证：Apache License 2.0
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 9. [neovim/neovim.github.io](https://github.com/neovim/neovim.github.io)
+
+这是 Neovim 官网 neovim.io 的源代码仓库，包含网站内容、布局、样式、新闻博客和文档搜索相关配置。
+
+- 适用场景：适合维护 Neovim 官网、发布新闻内容、生成文档页面，以及参与 Hugo 静态网站和 Algolia 文档搜索配置。
+- 主要特点：README 说明网站使用 Hugo 静态生成，提供本地预览、新闻创建、文档页生成、Algolia DocSearch 和代码块高亮主题维护方式。
+- 主要语言：HTML
+- Stars（采集时）：634
+- 许可证：MIT License
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 10. [yutiansut/QUANTAXIS](https://github.com/yutiansut/QUANTAXIS)
+
+QUANTAXIS 是本地化量化金融框架，覆盖股票、期货、期权的数据获取、回测、模拟与交易，并提供任务调度、可视化和多账户等组件。
+
+- 适用场景：适合搭建个人量化研究平台、进行多市场回测和模拟交易、管理本地数据，以及探索 Python 与 Rust 结合的高性能账户和回测实现。
+- 主要特点：README 介绍 Python 3.9-3.12、QARS2 Rust 核心与 QARSBridge、QIFI 兼容、账户操作和回测加速，以及 QUANTAXIS 生态中的数据交换和交易所项目。
+- 主要语言：Python
+- Stars（采集时）：11245
+- 许可证：MIT License
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
