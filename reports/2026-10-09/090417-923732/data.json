@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-10-09T09:02:13+08:00",
+  "notes": "已确认登录用户 liar-cy；Explore 页面显示基于已加星仓库和已关注用户的个性化推荐，并到达页面末尾。按页面顺序采集 10 个仓库，排除了文章、主题、集合、应用、赞助、导航链接和 Trending；全部仓库主页 About 与可见 README 已阅读。",
+  "repositories": [
+    {
+      "name": "HuaRongSAO/talib-document",
+      "url": "https://github.com/HuaRongSAO/talib-document",
+      "summary": "TA-Lib 中文学习与翻译文档，介绍技术分析指标库、Python 函数 API、抽象 API 和技术指标分类。",
+      "use_cases": "适合中文量化学习者查阅 TA-Lib 指标说明、参数用法和技术分析示例。",
+      "highlights": "覆盖 150 多个指标、K 线形态识别及多语言 API；页面未明确显示许可证。",
+      "language": null,
+      "stars": 1874,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "KittenCN/stock_prediction",
+      "url": "https://github.com/KittenCN/stock_prediction",
+      "summary": "基于 PyTorch 的股票时间序列预测实验项目，覆盖行情获取、特征处理、训练、推理和评估。",
+      "use_cases": "适合研究 LSTM、Transformer、混合模型、扩散模型和图模型的股票预测实验；结果需独立验证。",
+      "highlights": "提供多种模型、数据处理脚本、配置和测试目录，并记录归一化参数与模型配置要求；采用 GPL-3.0。",
+      "language": "Python",
+      "stars": 383,
+      "license": "GPL-3.0",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "charliedream1/ai_quant_trade",
+      "url": "https://github.com/charliedream1/ai_quant_trade",
+      "summary": "面向学习、模拟到实盘的 AI 量化交易资源与代码平台，汇集策略、数据、因子、机器学习、强化学习和金融大模型内容。",
+      "use_cases": "适合量化研究、回测、交易辅助工具、LLM 金融应用和多市场策略实践。",
+      "highlights": "按数据、策略、回测、Alpha、NLP、LLM 和交易部署组织子项目，支持 Python/C++、CPU/GPU，并包含资源汇总；采用 Apache-2.0。",
+      "language": "Jupyter Notebook",
+      "stars": 6599,
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "sinall/StrategyEase-Python-SDK",
+      "url": "https://github.com/sinall/StrategyEase-Python-SDK",
+      "summary": "策略易的 Python SDK，通过 HTTP REST API 管理交易客户端并支持量化策略自动化。",
+      "use_cases": "适合模拟交易、定时批量下单、多账号操作，以及与多个量化平台策略集成。",
+      "highlights": "封装客户端查询与下单接口，提供定时任务、自动打新、逆回购、融资融券和策略集成示例；采用 MIT。",
+      "language": "Python",
+      "stars": 1231,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "seed-rs/seed",
+      "url": "https://github.com/seed-rs/seed",
+      "summary": "采用 Elm 架构的 Rust 前端框架，用 WebAssembly 构建快速、可靠的 Web 应用。",
+      "use_cases": "适合使用 Rust 编写前端并将应用编译到 WebAssembly 的开发者。",
+      "highlights": "提供 Rust 宏模板系统、Elm 风格状态管理、示例和文档；README 说明项目目前未维护、组件生态有限且没有服务端渲染；采用 MIT。",
+      "language": "Rust",
+      "stars": 3836,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "meshtastic/firmware",
+      "url": "https://github.com/meshtastic/firmware",
+      "summary": "Meshtastic 开源离网 LoRa 网状通信系统的官方设备固件，支持多种低功耗硬件平台。",
+      "use_cases": "适合户外通信、应急准备、无蜂窝网络环境的文本消息与位置/遥测传输，以及多平台固件研究。",
+      "highlights": "支持 ESP32、nRF52、RP2040/RP2350 和 Linux 设备，提供长距离低功耗去中心化网状通信及构建/刷写文档；采用 GPL-3.0。",
+      "language": "C++",
+      "stars": 8395,
+      "license": "GPL-3.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "zillionare/zillionare",
+      "url": "https://github.com/zillionare/zillionare",
+      "summary": "围绕量化投资研究与 Python 量化交易实战的内容与教程项目，README 汇总持续更新的研究文章。",
+      "use_cases": "适合学习因子分析、回测、金融数据获取和量化交易工具生态。",
+      "highlights": "内容覆盖 AI、NumPy、pandas、TA-Lib、Backtrader、AKShare、QMT、XTQuant 等主题，并提供量化博客入口；页面未明确显示许可证。",
+      "language": "Python",
+      "stars": 321,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "AdvancingStone/stock-learning",
+      "url": "https://github.com/AdvancingStone/stock-learning",
+      "summary": "面向股票初学者的系统学习资料，涵盖基础知识、指标、K 线、筹码、趋势、波浪和量价分析。",
+      "use_cases": "适合初学者按主题入门股票知识、阅读技术分析材料和查阅通达信指标公式示例。",
+      "highlights": "按股票基础、指标、K 线、筹码、趋势和实盘解析组织内容，并附带选股与操盘公式；页面未明确显示许可证。",
+      "language": "HTML",
+      "stars": 712,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "akfamily/awesome-data",
+      "url": "https://github.com/akfamily/awesome-data",
+      "summary": "金融领域数据源与数据工具清单，整理开源接口、公共数据源、商业数据库和金融数据 SDK。",
+      "use_cases": "适合量化研究者按市场、数据类型和服务商筛选行情、宏观、股票及另类数据来源。",
+      "highlights": "收录 AKShare、TuShare、yfinance、pandas-datareader、World Bank、WindPy、JQData、RQData、TQSDK 及多类数据源；采用 MIT。",
+      "language": null,
+      "stars": 700,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "zhangxiangliang/stock-api",
+      "url": "https://github.com/zhangxiangliang/stock-api",
+      "summary": "零运行时依赖的 TypeScript 股票行情工具，提供 Node.js、浏览器、CLI 和 MCP 接入。",
+      "use_cases": "适合查询 A 股、港股、美股及场内基金行情、批量行情、K 线和股票搜索，并接入 AI 客户端。",
+      "highlights": "提供类型化 API、CLI 与 MCP 工具，支持腾讯/新浪/东方财富数据源和自动故障兜底；Node.js 至少 18；采用 MIT。",
+      "language": "TypeScript",
+      "stars": 1961,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-10-09T09:04:17.923732+08:00",
+  "source": "https://github.com/explore"
+}
