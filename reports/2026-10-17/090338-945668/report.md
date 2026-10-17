@@ -1,0 +1,126 @@
+# GitHub Explore 日报 · 2026-10-17
+
+状态：complete ｜ 来源：个性化推荐 ｜ 项目数：10
+
+[推荐来源](https://github.com/explore)
+
+已确认登录用户 liar-cy（logged_in=true）；页面显示基于关注的人、已加星仓库和已加星主题的个性化推荐区域，并到达页面末尾（“That's everything we found for you, for now.”）。按页面顺序完成 10 个推荐仓库的 About 与可见 README 阅读；已排除文章、主题、赞助、应用、集合和导航链接。
+
+## 1. [microsoft/playwright](https://github.com/microsoft/playwright)
+
+跨 Chromium、Firefox 和 WebKit 的 Web 自动化与测试框架。README 强调统一 API、端到端测试运行器、自动等待、隔离执行、追踪以及面向脚本和 AI agent 的浏览器驱动能力。
+
+- 适用场景：构建跨浏览器端到端测试、浏览器自动化脚本、测试调试与追踪流程，也可作为 AI agent 的浏览器控制基础。
+- 主要特点：以单一 API 驱动三类浏览器，提供 Playwright Test、自动等待和 Web-first assertions、测试隔离、Trace Viewer，以及 Node.js、Python、.NET 和 Java 支持。
+- 主要语言：TypeScript
+- Stars（采集时）：97881
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 2. [meshtastic/firmware](https://github.com/meshtastic/firmware)
+
+Meshtastic 官方设备固件，为无需互联网或蜂窝网络的远距离、低功耗 LoRa 网状通信提供实现。README 说明支持文本消息、位置共享和遥测，以及多种硬件平台。
+
+- 适用场景：户外活动、应急通信、偏远地区作业和其他无网络环境中的去中心化消息与设备遥测。
+- 主要特点：支持 ESP32、nRF52、RP2040/RP2350 和 Linux 设备等平台；围绕构建与刷写固件提供文档，并覆盖多种硬件变体和网状网络能力。
+- 主要语言：C++
+- Stars（采集时）：8438
+- 许可证：GPL-3.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 3. [ccxt/ccxt](https://github.com/ccxt/ccxt)
+
+面向 100 多家加密货币交易所和预测市场的统一交易 API。README 说明它覆盖行情数据、REST 与 WebSocket、公私有接口以及交易、分析、回测和机器人开发。
+
+- 适用场景：连接多个交易所获取或存储市场数据，进行跨平台分析、套利研究、策略回测、算法交易和交易机器人开发。
+- 主要特点：支持 JavaScript/TypeScript、Python、C#、PHP、Go、Java 和 Rust；提供统一接口并可选地规范化跨交易所数据，覆盖公共和私有 API。
+- 主要语言：Python
+- Stars（采集时）：44403
+- 许可证：MIT
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 4. [angular/angular](https://github.com/angular/angular)
+
+用于构建移动端和桌面端 Web 应用的开发平台。README 将 Angular 定位为基于 TypeScript/JavaScript 的现代 Web 平台，并配套组件、模板、表单、API、SSR 和工具链文档。
+
+- 适用场景：开发结构化的企业 Web 应用、渐进式 Web 应用和需要完整 CLI、组件体系、表单、路由及服务端渲染能力的前端项目。
+- 主要特点：提供 Angular CLI、组件与模板、表单、API、Angular Elements、服务端渲染、Schematics、懒加载和动画等生态能力，强调跨平台和可扩展工具链。
+- 主要语言：TypeScript
+- Stars（采集时）：101062
+- 许可证：MIT
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 5. [spring-projects/spring-framework](https://github.com/spring-projects/spring-framework)
+
+Spring 生态的基础框架，为 Java 企业应用提供语言之外所需的通用基础能力。README 将其定位为所有 Spring 项目的基础，并覆盖多种企业应用场景和架构。
+
+- 适用场景：构建企业级 Java 应用、Web 服务和微服务，使用 Spring 的核心容器、Web、数据访问、事务、消息和测试等基础设施。
+- 主要特点：采用模块化组织，围绕 Spring 项目生态提供核心基础能力；配套参考文档、API 文档、指南、构建和贡献说明。
+- 主要语言：Java
+- Stars（采集时）：60293
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 6. [uname-yang/pysnowball](https://github.com/uname-yang/pysnowball)
+
+雪球 APP 的 Python API 封装。README 说明使用者需要自行设置雪球 token 后才能访问接口，并展示了实时行情等股票数据调用及对应返回结构。
+
+- 适用场景：在 Python 程序中获取雪球股票行情和相关数据，用于个人数据分析、量化研究或围绕雪球接口开发工具。
+- 主要特点：提供统一的 Python 调用入口、token 配置方式、多类股票 API、API 目录和测试；页面显示 Apache-2.0 许可证，README 明确接口访问依赖手动获取 token。
+- 主要语言：Python
+- Stars（采集时）：1852
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 7. [apache/spark](https://github.com/apache/spark)
+
+面向大规模数据处理的统一分析引擎。README 说明 Spark 提供 Scala、Java、Python 和 R 的高级 API，以及支持通用计算图的优化执行引擎，并集成 SQL、pandas API on Spark、MLlib、GraphX 和 Structured Streaming。
+
+- 适用场景：构建批处理、SQL 分析、机器学习、图计算和流处理任务，在多种语言环境中处理大规模数据集。
+- 主要特点：提供跨语言高级 API、优化执行引擎和一整套分析组件；支持 Spark SQL/DataFrames、pandas API on Spark、MLlib、GraphX 与 Structured Streaming，并提供官方文档。
+- 主要语言：Scala
+- Stars（采集时）：44223
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 8. [servo/servo](https://github.com/servo/servo)
+
+用 Rust 编写的并行浏览器引擎原型，目标是为应用嵌入 Web 技术提供轻量、高性能的替代方案。README 说明其面向 macOS、Linux、Windows、OpenHarmony 和 Android 等 64 位平台。
+
+- 适用场景：研究和开发浏览器引擎、Web 渲染和可嵌入 Web 能力，或在 Rust 原生应用中探索浏览器技术集成。
+- 主要特点：以 Rust 实现并强调并行浏览器引擎方向，提供 Servo Book、构建指南和多平台开发路径，仓库同时包含引擎相关组件与测试。
+- 主要语言：Rust
+- Stars（采集时）：38166
+- 许可证：MPL-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 9. [strapi/strapi](https://github.com/strapi/strapi)
+
+可自托管的开源无头 CMS，用于快速构建内容 API，并为内容创作者提供管理界面。README 说明可视化定义内容模型后自动生成 API，前端、移动端和 IoT 客户端均可消费。
+
+- 适用场景：构建内容驱动的网站、移动应用、Jamstack 前端和 IoT 服务，集中管理内容并通过 REST 或 GraphQL API 对外提供。
+- 主要特点：提供 Content-Type Builder、自动生成 REST/GraphQL API、角色与权限、媒体库、国际化、草稿发布、TypeScript、多个数据库选项、插件系统和可定制管理后台。
+- 主要语言：TypeScript
+- Stars（采集时）：73323
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 10. [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)
+
+开源、跨平台的参数化 3D 建模器。README 说明可以通过修改模型历史中的参数调整设计，支持从受约束的 2D 草图构建 3D 对象并生成生产图纸。
+
+- 适用场景：产品设计、机械工程、建筑、3D 打印和个人 CAD 学习，适用于爱好者、学生、教师、程序员及专业 CAD 用户。
+- 主要特点：支持 Windows、macOS 和 Linux；基于 OpenCASCADE 几何内核和 Coin3D 场景表示，使用 Qt 构建 GUI，并提供 Python API 和参数化建模工作流。
+- 主要语言：C++
+- Stars（采集时）：34389
+- 许可证：LGPL-2.1
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
