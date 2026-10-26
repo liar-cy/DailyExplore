@@ -1,0 +1,124 @@
+# GitHub Explore 日报 · 2026-10-26
+
+状态：complete ｜ 来源：个性化推荐 ｜ 项目数：10
+
+[推荐来源](https://github.com/explore)
+
+已确认登录用户 liar-cy（logged_in=true）；页面显示基于已加星仓库和已关注用户的个性化推荐区域，并到达页面末尾（"That's everything we found for you, for now."）。按页面顺序完成 10 个推荐仓库的 About 与可见 README 阅读；已排除文章、主题、赞助、应用、集合和导航链接。
+
+## 1. [AdvancingStone/stock-learning](https://github.com/AdvancingStone/stock-learning)
+
+面向初学者的股票知识学习资料库，按基础知识、技术指标、K 线、筹码理论、趋势投资和量价分析等主题组织内容。
+
+- 适用场景：适合股票投资入门、系统浏览基础概念和查阅常见技术分析主题；内容更适合作为学习资料，不是交易执行系统。
+- 主要特点：README 提供 15 个主题入口，包含 HTML K 线资料、文章和通达信指标公式导入说明；页面 About 简介为股票入门之系统学习。
+- 主要语言：HTML
+- Stars（采集时）：727
+- 许可证：MIT
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 2. [uname-yang/pysnowball](https://github.com/uname-yang/pysnowball)
+
+雪球 APP 的 Python API 封装，通过用户自行获取的 token 访问股票行情、资金流、基金及其他市场数据接口。
+
+- 适用场景：适合个人量化研究、股票数据查询和快速原型；使用前需要自行获取并管理雪球 token，并评估接口稳定性与合规性。
+- 主要特点：README 提供 pip 安装、设置 token 和实时行情调用示例，仓库包含 API、测试和 token 获取说明；页面显示 Apache-2.0 许可证。
+- 主要语言：Python
+- Stars（采集时）：1851
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 3. [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
+
+Windows Package Manager 的社区清单仓库，维护应用包的 manifest，作为 WinGet 默认源的一部分。
+
+- 适用场景：适合查阅、提交和维护 Windows 应用包清单，或参与 WinGet 社区包分发和验证流程。
+- 主要特点：README 说明仓库保存默认源 manifest，列出支持的安装器类型、manifest 编写与测试文档，以及提交新包和请求新包的入口；页面显示 MIT 许可证。
+- Stars（采集时）：11240
+- 许可证：MIT
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 4. [yutiansut/QUANTAXIS](https://github.com/yutiansut/QUANTAXIS)
+
+面向股票、期货和期权的本地量化金融框架，覆盖数据、回测、模拟交易、可视化、多账户和任务调度等环节。
+
+- 适用场景：适合量化研究者搭建本地投研与回测环境，进行策略开发、账户模拟、组合管理和多市场实验。
+- 主要特点：README 介绍 Python 3.9–3.12 支持、QARS2 Rust 核心与桥接层、回测和账户性能优化，并提供股票与期货交易接口示例；页面显示 MIT 许可证。
+- 主要语言：Python
+- Stars（采集时）：11307
+- 许可证：MIT
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 5. [Barca0412/Introduction-to-Quantitative-Finance](https://github.com/Barca0412/Introduction-to-Quantitative-Finance)
+
+面向量化研究者与学习者的中文知识库，整理多因子投研、AI + Finance 论文、数据、工具、课程和研究资源。
+
+- 适用场景：适合系统学习量化投研、跟踪 AI 金融论文、查找因子与回测资料，以及为研究项目建立资料索引。
+- 主要特点：README 提供多因子投研教程、工作日更新的 arXiv Radar 和精选资源地图，并链接文档站与讨论区；页面显示 MIT 许可证。
+- 主要语言：Python
+- Stars（采集时）：1836
+- 许可证：MIT
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 6. [akfamily/awesome-data](https://github.com/akfamily/awesome-data)
+
+金融数据源与工具清单，按开放数据工具、金融数据 SDK 和公共数据源整理可访问的市场与宏观数据资源。
+
+- 适用场景：适合量化研究和数据工程选型，快速寻找 A 股、全球市场、宏观数据及商业金融 SDK 的入口。
+- 主要特点：README 收录 AKShare、Tushare、YFinance、Pandas Datareader、WindPy、JQData、RQData、TQSDK 及多个公共数据源，并鼓励通过 issue 补充资源；页面显示 MIT 许可证。
+- Stars（采集时）：701
+- 许可证：MIT
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 7. [KittenCN/stock_prediction](https://github.com/KittenCN/stock_prediction)
+
+基于 PyTorch 的股票时间序列预测实验项目，覆盖行情获取、特征处理、训练、推理和模型评估。
+
+- 适用场景：适合研究股票预测模型、比较时序深度学习架构和构建实验流程；README 明确提示预测仅供研究，需独立验证数据边界和交易成本。
+- 主要特点：README 列出 LSTM、Transformer、Hybrid、Diffusion、Graph 等模型实验，并组织数据处理、训练推理脚本、测试、配置和文档；页面显示 GPL-3.0 许可证。
+- 主要语言：Python
+- Stars（采集时）：388
+- 许可证：GPL-3.0
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 8. [vitejs/vite](https://github.com/vitejs/vite)
+
+面向现代 Web 项目的前端构建工具，提供开发服务器、快速 HMR、生产构建和可扩展插件与 JavaScript API。
+
+- 适用场景：适合搭建现代前端应用、组件库和静态站点，进行快速本地开发、模块热替换和优化后的生产打包。
+- 主要特点：README 将 Vite 分为开发服务器与构建命令两部分，支持原生 ESM 增强、Rolldown 生产打包、插件 API 和类型化 API；页面显示 MIT 许可证。
+- 主要语言：TypeScript
+- Stars（采集时）：83549
+- 许可证：MIT
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 9. [pingcap/tidb](https://github.com/pingcap/tidb)
+
+开源云原生分布式 SQL 数据库，提供强一致性、高可用、弹性扩展和 HTAP 能力，并兼容 MySQL 生态。
+
+- 适用场景：适合需要分布式事务、在线扩展、故障自动恢复、事务与分析混合负载或云原生部署的业务数据库和数据平台。
+- 主要特点：README 介绍两阶段提交的分布式事务、Raft 高可用、TiKV/TiFlash 分离存储与 HTAP、Kubernetes 部署和 TiDB Cloud；页面及 README 显示 Apache-2.0 许可证。
+- 主要语言：Go
+- Stars（采集时）：40677
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 10. [QuantFans/quantdigger](https://github.com/QuantFans/quantdigger)
+
+基于 Python 的量化回测框架，以接近常见商业软件的策略语法支持股票和期货回测。
+
+- 适用场景：适合学习量化策略表达、进行股票或期货历史回测、选股、套利、择时和组合策略实验；项目已停止维护，使用前应评估兼容性。
+- 主要特点：README 介绍 matplotlib K 线与策略展示界面、股票和期货回测、组合策略以及基于 Python 的策略开发，并明确说明项目不再维护；页面未显示许可证。
+- 主要语言：Python
+- Stars（采集时）：1829
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
