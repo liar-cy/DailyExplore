@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-10-27T08:56:37.742373+08:00",
+  "notes": "已确认登录用户 liar-cy；页面为登录后的个性化 Explore，包含基于已收藏仓库、已收藏主题和关注用户的推荐，并已到达“That's everything we found for you”末尾。按页面顺序去重后共 10 个仓库；已排除导航、文章、赞助、主题、集合和 Trending 内容。",
+  "repositories": [
+    {
+      "name": "Barca0412/Introduction-to-Quantitative-Finance",
+      "url": "https://github.com/Barca0412/Introduction-to-Quantitative-Finance",
+      "summary": "面向量化研究者和学习者的中文知识库，覆盖多因子股票投研框架、因子与回测、组合优化，以及 AI+Finance 论文雷达和量化资源整理。",
+      "use_cases": "系统学习量化投研、查找量化数据与研究工具、跟踪 AI+Finance 论文和构建学习路线。",
+      "highlights": "README 提供多因子投研教程、自动抓取与聚类的 arXiv Radar、趋势和标签视图，以及数据、回测、机器学习和金融课程资源地图。",
+      "language": "Python",
+      "stars": 1843,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "JoinQuant/jqdatasdk",
+      "url": "https://github.com/JoinQuant/jqdatasdk",
+      "summary": "聚宽提供的中国金融市场数据 Python SDK，用于以统一 API 获取和处理量化研究所需的数据。",
+      "use_cases": "中国股票等金融市场的数据研究、因子开发、回测准备、风控建模和量化策略研发。",
+      "highlights": "README 介绍本地化调用、跨平台支持、数据清洗与标准化、统一的跨品种接口、数据聚合，以及与聚宽投研和算法交易体系的衔接。",
+      "language": "Python",
+      "stars": 1423,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "sinall/StrategyEase-Python-SDK",
+      "url": "https://github.com/sinall/StrategyEase-Python-SDK",
+      "summary": "策略易的 Python SDK，对交易自动化服务提供 REST API 封装，并管理交易客户端和策略集成。",
+      "use_cases": "通过 HTTP API 管理交易客户端、执行查询和下单、配置定时任务，以及把聚宽、米筐、优矿等策略平台接入模拟交易。",
+      "highlights": "README.rst 说明了 SDK Client 封装、定时新股申购和逆回购、批量下单、多个量化平台集成及对应测试用例。",
+      "language": "Python",
+      "stars": 1235,
+      "license": "MIT",
+      "recommendation_reason": "Based on topics you've starred",
+      "read_status": "About 和 README.rst 已读"
+    },
+    {
+      "name": "ccxt/ccxt",
+      "url": "https://github.com/ccxt/ccxt",
+      "summary": "面向加密货币交易所和预测市场的统一交易 API 库，屏蔽不同平台接口差异并提供市场数据与交易能力。",
+      "use_cases": "跨交易所获取行情、做数据分析和可视化、开发指标与交易策略、回测、编写交易机器人和 AI 交易代理。",
+      "highlights": "README 列出 100+ 交易所和预测市场支持、REST 与 WebSocket 公私有 API、跨交易所数据归一化，以及 JavaScript/TypeScript、Python、C#、PHP、Go、Java 和 Rust 支持。",
+      "language": "Python",
+      "stars": 44590,
+      "license": "MIT",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "ailabx/agilab",
+      "url": "https://github.com/ailabx/agilab",
+      "summary": "AgiLab 是一个探索前沿 AGI 技术落地的实验室项目，当前聚焦金融量化投资和自媒体自动化运营。",
+      "use_cases": "研究 AI 辅助量化投资、尝试自媒体选题与内容自动化生产，或作为 Python AGI 应用实验项目。",
+      "highlights": "README 将项目定位为 AGI 实验室，覆盖结构化和非结构化金融信息处理、投资辅助，以及从选题到内容创作的一站式自媒体运营方向。",
+      "language": "Python",
+      "stars": 965,
+      "license": "GPL-3.0",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "zillionare/zillionare",
+      "url": "https://github.com/zillionare/zillionare",
+      "summary": "面向量化投资研究和 Python 量化交易实战的中文资源项目，配套 Quantide 博客与教程内容。",
+      "use_cases": "学习量化交易和回测、浏览金融数据与策略工具资料、跟踪 AI 量化和市场研究文章。",
+      "highlights": "README 以文章索引为主，聚合量化投资、Python 交易实战、AI 量化系统、回测、数据工具和市场资讯等内容，并链接到项目博客。",
+      "language": "Python",
+      "stars": 326,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "summary": "用于 Web 自动化与测试的跨浏览器框架，通过统一 API 驱动 Chromium、Firefox 和 WebKit，也支持 AI agent 场景。",
+      "use_cases": "端到端测试、浏览器自动化脚本、测试调试与隔离，以及为编码代理或 LLM 自动化提供浏览器能力。",
+      "highlights": "README 介绍 Playwright Test 测试运行器、CLI、MCP、Library 和 VS Code 扩展，并强调自动等待、Web-first assertions、可靠定位器、测试隔离和追踪能力。",
+      "language": "TypeScript",
+      "stars": 98591,
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter",
+      "summary": "Google 的开源 UI SDK，用一套 Dart 代码构建移动端、Web、桌面等平台的高性能应用。",
+      "use_cases": "开发 iOS、Android、Web、Windows、macOS 和 Linux 应用，复用跨平台 UI 与业务代码并进行快速迭代。",
+      "highlights": "README 强调单代码库、多平台渲染、Dart 编译到原生机器码/JavaScript/WebAssembly、Material 组件、热重载，以及可扩展的开放开发模型。",
+      "language": "Dart",
+      "stars": 180383,
+      "license": "BSD-3-Clause",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "microsoft/winget-pkgs",
+      "url": "https://github.com/microsoft/winget-pkgs",
+      "summary": "Windows Package Manager 的社区清单仓库，维护默认软件源中的应用包 manifest。",
+      "use_cases": "查找或提交 Windows 应用清单、为 WinGet 软件源补充版本、按社区流程验证和发布包描述。",
+      "highlights": "README 说明支持的安装器类型、manifest 编写与测试、首次贡献和提交流程，并通过 CI/发布流水线校验社区提交。",
+      "language": null,
+      "stars": 11243,
+      "license": "MIT",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "seed-rs/seed",
+      "url": "https://github.com/seed-rs/seed",
+      "summary": "使用 Rust 和 WebAssembly 构建 Web 前端应用的框架，采用类似 Elm 的架构和 Rust 宏模板语法。",
+      "use_cases": "希望使用 Rust 开发浏览器前端、探索 WebAssembly，或需要类型安全状态管理的实验性 Web 应用。",
+      "highlights": "README 介绍纯 Rust 模板系统、基于 Elm 架构的状态管理、WebAssembly 和 Trunk 工作流，同时明确项目目前无人维护、服务端渲染缺失且预制组件较少。",
+      "language": "Rust",
+      "stars": 3832,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-10-27T08:58:01.992263+08:00",
+  "source": "https://github.com/explore"
+}
