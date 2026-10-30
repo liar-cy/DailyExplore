@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-10-30T09:04:18+08:00",
+  "notes": "已确认登录用户为 liar-cy，logged_in=true；Explore 页面包含基于已收藏仓库和关注用户的个性化推荐，并已到达页面末尾。按页面顺序采集并阅读全部 10 个推荐仓库的 About 与可见 README；未纳入文章、主题、赞助、应用、导航链接或 Trending 内容。",
+  "repositories": [
+    {
+      "name": "shinnytech/tqsdk-python",
+      "url": "https://github.com/shinnytech/tqsdk-python",
+      "summary": "由信易科技发起的 Python 量化交易开发包，覆盖期货、期权和股票的历史与实时数据、策略回测、模拟交易、实盘交易、运行监控和风险管理。",
+      "use_cases": "用于学习和开发期货或其他品种的量化策略，进行行情研究、回测、模拟交易以及连接实盘交易流程。",
+      "highlights": "README 强调以较少代码构建多类量化策略，并提供从数据到交易和监控的完整链路；主页还链接在线文档，要求 Python 3.9 及以上。",
+      "language": "Python",
+      "stars": "5116",
+      "license": "Apache-2.0 License",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "AdvancingStone/stock-learning",
+      "url": "https://github.com/AdvancingStone/stock-learning",
+      "summary": "面向股票初学者的中文系统学习资料库，围绕基础知识、指标、K 线、筹码、江恩理论、趋势投资和量价分析等主题组织文章与网页资料。",
+      "use_cases": "适合作为股票入门阅读目录，按主题学习技术分析概念，或查找通达信指标公式和相关图文资料。",
+      "highlights": "README 按序列出股票基础、指标、K 线、筹码理论、趋势投资、波浪理论和量价实盘解析等内容，并附带 HTML 预览、图片、股票与指标公式目录。",
+      "language": "HTML",
+      "stars": "728",
+      "license": "MIT License",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "uname-yang/pysnowball",
+      "url": "https://github.com/uname-yang/pysnowball",
+      "summary": "雪球 APP 的 Python API 封装，通过手动配置雪球 token 访问股票行情、详细报价等数据接口。",
+      "use_cases": "用于个人研究或量化脚本中获取雪球股票数据，封装实时行情、报价详情及其他雪球 API 调用。",
+      "highlights": "README 提供 pip 安装、set_token 配置和行情调用示例；仓库包含 API、测试、token 获取说明和 Apache-2.0 许可文件，使用前需要自行准备 token。",
+      "language": "Python",
+      "stars": "1852",
+      "license": "Apache-2.0 License",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "zhangxiangliang/stock-api",
+      "url": "https://github.com/zhangxiangliang/stock-api",
+      "summary": "零运行时依赖的 TypeScript 股票行情工具，面向 A 股、港股、美股和场内基金，支持 Node.js、浏览器、CLI 与 MCP 接入。",
+      "use_cases": "用于应用或脚本查询股票行情、K 线和搜索股票，也适合让 AI 客户端通过 MCP 调用行情工具或在浏览器中直接集成。",
+      "highlights": "README 列出 TypeScript API、浏览器 bundler、CLI 和 MCP 四种使用方式，支持数据源自动兜底并可指定腾讯、新浪或东方财富数据源。",
+      "language": "TypeScript",
+      "stars": "1986",
+      "license": "MIT License",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "hibernate/hibernate-orm",
+      "url": "https://github.com/hibernate/hibernate-orm",
+      "summary": "Java 生态的对象关系映射与持久化框架，是 Jakarta Persistence 的标准实现之一，用类型安全的对象模型访问关系型数据。",
+      "use_cases": "用于 Java 企业应用的数据持久化、对象与关系表映射、复杂查询以及基于 Jakarta Persistence/JPA 的数据库访问。",
+      "highlights": "README 将其定位为 Jakarta Persistence、Jakarta Query 和 Jakarta Data 的实现；主页主题覆盖 JDBC、JPA、ORM、Envers、SQL 和数据库持久化。",
+      "language": "Java",
+      "stars": "6482",
+      "license": "Apache-2.0 License",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "summary": "Go 编程语言的官方 GitHub 镜像，包含语言实现、标准库、编译器、工具链、文档和测试等核心源码。",
+      "use_cases": "用于学习 Go 语言与标准库、研究编译器和运行时、构建简单可靠高效的软件，以及参与 Go 项目本身的开发。",
+      "highlights": "README 将 Go 描述为帮助构建简单、可靠、高效软件的开源语言，并说明官方主仓库位于 go.googlesource.com；仓库包含 api、doc、lib、src 和 test 等目录。",
+      "language": "Go",
+      "stars": "139430",
+      "license": "BSD-3-Clause License",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "microsoft/playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "summary": "面向 Web 测试与自动化的框架，通过统一 API 驱动 Chromium、Firefox 和 WebKit，并提供测试运行器、CLI、MCP 与库等使用形态。",
+      "use_cases": "用于端到端测试、跨浏览器回归、浏览器自动化脚本、测试调试，以及为编码或 AI 代理提供浏览器操作能力。",
+      "highlights": "README 区分 Playwright Test、CLI、MCP、Library 和 VS Code 扩展；Playwright Test 提供浏览器隔离、自动等待和 Web-first 断言，主页列出 Chromium、Firefox、WebKit 及 Electron 等主题。",
+      "language": "TypeScript",
+      "stars": "98824",
+      "license": "Apache-2.0 License",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "seed-rs/seed",
+      "url": "https://github.com/seed-rs/seed",
+      "summary": "采用 Elm 风格架构的 Rust 前端框架，用 WebAssembly 构建快速可靠的 Web 应用，模板系统和状态管理都以 Rust 为中心。",
+      "use_cases": "适合希望用 Rust 开发 WebAssembly 前端、尝试 Elm 式状态管理或构建小型 Rust Web 应用的开发者；采用前应评估项目维护状态。",
+      "highlights": "README 提到 Rust 模板宏、内置 Elm 架构状态管理、WebAssembly 和面向初学者的文档，同时明确写有“目前未维护”、组件较少且暂无服务端渲染。",
+      "language": "Rust",
+      "stars": "3833",
+      "license": "MIT License",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "summary": "Angular 官方开发平台，使用 TypeScript/JavaScript 构建移动端和桌面端 Web 应用，提供组件、表单、路由、SSR、懒加载、动画和 CLI 等生态能力。",
+      "use_cases": "用于构建规模化、可维护的企业级 Web 应用和 PWA，统一处理组件开发、表单、性能、服务端渲染与工程化工具链。",
+      "highlights": "README 覆盖组件与模板、表单、API、Angular Elements、SSR、Schematics、懒加载和动画等文档入口，并强调 CLI、Angular Material、跨平台和可扩展工具链。",
+      "language": "TypeScript",
+      "stars": "101084",
+      "license": "MIT License",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "ccxt/ccxt",
+      "url": "https://github.com/ccxt/ccxt",
+      "summary": "统一的加密货币交易与预测市场 API 库，为 100 多个交易所提供一致的 REST/WebSocket 公共和私有接口，支持多种主流语言。",
+      "use_cases": "用于跨交易所行情采集、数据存储与分析、指标开发、套利和策略回测，以及构建交易机器人或 AI/量化交易应用。",
+      "highlights": "README 列出 JavaScript/TypeScript、Python、C#、PHP、Go、Java 和 Rust 支持，覆盖 100 多个交易所和预测市场，并提供跨交易所数据统一化与现成 API。",
+      "language": "Python",
+      "stars": "44620",
+      "license": "MIT License",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-10-30T09:05:34.003529+08:00",
+  "source": "https://github.com/explore"
+}
