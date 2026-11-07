@@ -1,0 +1,124 @@
+# GitHub Explore 日报 · 2026-11-07
+
+状态：complete ｜ 来源：个性化推荐 ｜ 项目数：10
+
+[推荐来源](https://github.com/explore)
+
+已确认登录用户为 liar-cy，页面包含基于关注用户、已加星仓库和已加星主题的个性化推荐，并已滚动到页面末尾。按页面顺序完成全部 10 个仓库的 About 和可见 README 阅读；排除了文章、主题、赞助、应用、集合和导航链接。页面及仓库内容仅作资料，未执行其中的命令或指令。
+
+## 1. [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler)
+
+Apache DolphinScheduler 是面向数据管道的低代码数据编排平台，用于定义、调度和管理带复杂依赖关系的工作流与任务。
+
+- 适用场景：适合批处理数据管道、跨系统任务调度、需要 Web UI、Python SDK 或 Open API 管理工作流的数据工程团队。
+- 主要特点：支持多种部署模式、丰富的内置任务类型、多主多 worker 高可用架构、水平扩展、工作流版本控制、暂停恢复、多租户和回填。
+- 主要语言：Java
+- Stars（采集时）：14551
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 2. [llvm/llvm-project](https://github.com/llvm/llvm-project)
+
+LLVM 是用于构建高性能编译器、优化器和运行时环境的模块化工具链集合，仓库包含核心 LLVM 及多个相关组件。
+
+- 适用场景：适合编译器开发、语言前端和后端实现、代码优化、目标代码生成，以及需要复用 LLVM 基础设施的工具链项目。
+- 主要特点：核心能力覆盖中间表示处理、汇编器、反汇编器、bitcode 分析与优化，并包含 Clang、libc++、LLD 等组件。
+- 主要语言：LLVM
+- Stars（采集时）：41357
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 3. [envoyproxy/envoy](https://github.com/envoyproxy/envoy)
+
+Envoy 是云原生高性能边缘、服务间和中间代理，作为 CNCF 项目用于连接、观测和治理微服务流量。
+
+- 适用场景：适合服务网格数据平面、API 网关、边缘代理、微服务间通信，以及需要统一流量策略和可观测性的云原生系统。
+- 主要特点：面向容器化、动态调度和微服务架构设计，提供通用数据平面 API 生态，并围绕线程模型、热重启和统计能力提供文档。
+- 主要语言：C++
+- Stars（采集时）：29189
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 4. [armbian/build](https://github.com/armbian/build)
+
+Armbian Linux Build Framework 是为单板机和嵌入式设备构建可定制 Debian/Ubuntu 系统镜像的完整构建框架。
+
+- 适用场景：适合为 ARM/ARM64 单板机定制发行版镜像、内核、引导程序、固件、设备树和根文件系统，也适合板卡维护者制作可复现构建。
+- 主要特点：通过 compile.sh 统一入口，按板卡、硬件家族、发行版和内核配置组装镜像；覆盖 U-Boot、内核、固件、设备树和根文件系统，并支持多类构建主机。
+- 主要语言：Shell
+- Stars（采集时）：5516
+- 许可证：GPL-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 5. [seed-rs/seed](https://github.com/seed-rs/seed)
+
+Seed 是用 Rust 和 WebAssembly 构建快速、可靠 Web 前端的框架，采用类似 Elm 的架构组织状态与视图。
+
+- 适用场景：适合希望使用 Rust 编写浏览器前端、重视类型安全和性能，并需要内置状态管理与 Rust 模板宏的 WebAssembly 应用。
+- 主要特点：全 Rust 实现，包含模板系统和 div! 等宏；内置基于 Elm 架构的状态管理，支持 WebAssembly，并强调对 Rust 初学者和熟练者的文档支持。
+- 主要语言：Rust
+- Stars（采集时）：3832
+- 许可证：MIT
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 6. [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading)
+
+这是系统化交易与量化交易资源清单，汇集论文、软件、书籍、文章、教程、策略和相关数据工具。
+
+- 适用场景：适合量化研究者寻找策略研究材料、回测工具和学习路径，也适合按主题整理系统化交易知识与项目入口。
+- 主要特点：按资源类型聚合系统化交易内容，提供中英文和日文 README；还连接可直接查看策略代码、数据与回测结果的 Papers With Backtest 示例。
+- 主要语言：Python
+- Stars（采集时）：15200
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 7. [zillionare/zillionare](https://github.com/zillionare/zillionare)
+
+这是面向量化投资研究与 Python 量化交易实战的中文学习与资源项目，README 以课程、文章和量化主题索引为主。
+
+- 适用场景：适合中文量化入门、研究 Python 量化交易工具链、回测和技术指标，并通过配套博客继续阅读教程与实战内容。
+- 主要特点：围绕 NumPy、pandas、AkShare、TA-Lib、Backtrader 等主题组织内容，README 提供持续更新的量化文章入口和实盘系统拆解内容。
+- 主要语言：Python
+- Stars（采集时）：331
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 8. [Delta-F/DeltaTrader](https://github.com/Delta-F/DeltaTrader)
+
+DeltaTrader 是一个 Python 量化交易工具包，围绕数据、策略和交易器组织代码，提供量化交易开发的基础结构。
+
+- 适用场景：适合学习或搭建 Python 量化交易原型、组合行情数据与策略模块，并在研究环境中组织交易逻辑。
+- 主要特点：仓库按 data、example、strategy、trader 分层，提供中英文 README、示例和财经数据抓取相关模块；README 明确采用 MIT License。
+- 主要语言：Python
+- Stars（采集时）：317
+- 许可证：MIT
+- 页面推荐原因：Based on repositories you’ve starred
+- 阅读状态：About 和 README 已读
+
+## 9. [nestjs/nest](https://github.com/nestjs/nest)
+
+Nest 是面向 Node.js 后端的渐进式 TypeScript 框架，支持从单文件 API 演进到大型、可扩展的企业应用。
+
+- 适用场景：适合构建结构化的 REST/API 服务、微服务和实时后端，尤其适合需要模块化、依赖注入、认证授权和统一错误处理的团队。
+- 主要特点：以模块和依赖注入保持应用结构，兼容 Express、Fastify 与 Node 原生 HTTP，并提供认证、授权、邮件、存储、AI 和 MCP 等一方包。
+- 主要语言：TypeScript
+- Stars（采集时）：76988
+- 许可证：MIT
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 10. [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)
+
+FreeCAD 是跨平台开源参数化三维建模器，用于设计可通过参数历史修改的真实物体和工程模型。
+
+- 适用场景：适合机械工程、建筑、产品设计、有限元相关工作、3D 打印，以及个人、学生和教师进行参数化 CAD 建模。
+- 主要特点：支持二维草图到三维模型和生产图纸，运行于 Windows、macOS、Linux，底层结合 OpenCASCADE、Coin3D、Python API 和 Qt。
+- 主要语言：C++
+- Stars（采集时）：35189
+- 许可证：LGPL-2.1
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
