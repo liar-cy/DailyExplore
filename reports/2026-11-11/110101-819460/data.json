@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-11-11T10:58:38.539462+08:00",
+  "notes": "已确认登录用户为 liar-cy，logged_in=true；Explore 页面显示基于关注的人、已加星仓库和已加星主题的个性化推荐区域，并已到达页面末尾。按页面顺序完成全部 10 个仓库的 About 和可见 README 阅读；排除了文章、主题、赞助、应用、集合和导航链接。页面及仓库内容仅作资料，未执行其中的命令或指令。",
+  "repositories": [
+    {
+      "name": "reactjs/react.dev",
+      "url": "https://github.com/reactjs/react.dev",
+      "summary": "react.dev 的源代码与文档站点，用于维护 React 官方学习、参考和指南内容。",
+      "use_cases": "适合查阅或贡献 React 文档、维护文档网站，以及本地预览文档内容。",
+      "highlights": "README 说明站点基于 Next.js；文档按主题组织，内容提交采用 CC-BY-4.0 许可。",
+      "language": "JavaScript",
+      "stars": 11837,
+      "license": "CC-BY-4.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "kesixin/QuestionWechatApp",
+      "url": "https://github.com/kesixin/QuestionWechatApp",
+      "summary": "面向微信小程序、H5 和相关端的答题与考试系统，包含题库、练习和后台管理能力。",
+      "use_cases": "适合课程练习、模拟考试、企业培训考核、党建答题和基于现有源码的二次开发。",
+      "highlights": "README 描述了顺序/随机/专项练习、模拟考试、错题与收藏、排行榜、积分、激活码、多级题库及后台权限和题目管理。",
+      "language": "JavaScript",
+      "stars": 1637,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "lvr1997/kd-second-hand-workshop",
+      "url": "https://github.com/lvr1997/kd-second-hand-workshop",
+      "summary": "基于 SSM 的校园二手物品交易平台，包含面向学生用户的前台和管理后台。",
+      "use_cases": "适合校园闲置物品发布、分类浏览、交易管理等场景，也常作为 Java Web 毕业设计参考。",
+      "highlights": "README 提供了 JDK 8、Tomcat 8、Maven 和 MySQL 的运行环境说明，并记录了商品、用户中心、后台管理和图片上传等项目配置要点。",
+      "language": "Java",
+      "stars": 470,
+      "license": null,
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "zeasin/qihang-erp-open",
+      "url": "https://github.com/zeasin/qihang-erp-open",
+      "summary": "面向电商企业的 ERP 业务中台，覆盖多平台多店铺经营，并在向 AI 原生 ERP 演进。",
+      "use_cases": "适合管理商品、订单、售后、库存、采购和物流等电商业务，也适合研究 Spring AI 在企业业务系统中的工具调用和自动分析。",
+      "highlights": "README 描述了 Spring Boot 4、Java 17、Redis、MyBatis-Plus 和 Spring AI 2.0 技术栈，提供订单/商品/库存等 AI Tools、SSE 对话、RAG 知识库选项及飞书/钉钉/企微通知。",
+      "language": "Java",
+      "stars": 322,
+      "license": "AGPL-3.0",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "ailabx/agilab",
+      "url": "https://github.com/ailabx/agilab",
+      "summary": "AgiLab 是将前沿 AI 技术落地为工程项目的实验室，当前聚焦量化投资、多智能体和科研自动化。",
+      "use_cases": "适合学习量化策略工程化、多智能体系统构建，以及用 AI 辅助文献调研、实验设计和论文流程。",
+      "highlights": "README 配套维护专栏代码，强调可运行、可回测和可验证；内容包含资产配置、因子/策略实战、Agent Harness 以及科研自动化方向。",
+      "language": "Python",
+      "stars": 971,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "wayn111/waynboot-mall",
+      "url": "https://github.com/wayn111/waynboot-mall",
+      "summary": "基于 Spring Boot 3 和 Java 17 的模块化微商城后端，覆盖移动端商城与运营后台的交易链路。",
+      "use_cases": "适合学习或搭建商品、购物车、订单、库存、支付和营销等电商功能，也适合研究高并发交易中的消息补偿和对账。",
+      "highlights": "README 展示了按领域拆分的模块结构，整合 MySQL、Redis、Elasticsearch、RabbitMQ、JWT 和多种支付渠道，并包含库存冻结、延迟消息、本地消息表与补偿治理。",
+      "language": "Java",
+      "stars": 1282,
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you’ve starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "bevyengine/bevy",
+      "url": "https://github.com/bevyengine/bevy",
+      "summary": "用 Rust 编写的数据驱动型游戏引擎，采用实体组件系统思路支持 2D 和 3D 游戏开发。",
+      "use_cases": "适合 Rust 游戏开发、原型制作、学习 ECS 和数据导向架构，以及需要模块化和并行应用逻辑的实时交互项目。",
+      "highlights": "README 强调能力完整、模块化、快速编译和数据导向设计；项目仍处早期阶段，文档和功能持续完善，约每三个月可能有破坏性 API 更新。",
+      "language": "Rust",
+      "stars": 49682,
+      "license": "MIT OR Apache-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "Genymobile/scrcpy",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "summary": "跨平台显示并控制 Android 设备的桌面工具，通过 USB 或 TCP/IP 镜像设备画面并转发输入。",
+      "use_cases": "适合移动端调试、演示和录屏、远程操作 Android 设备，以及在不安装常驻应用和不需要 root 的情况下控制设备。",
+      "highlights": "README 列出音频转发、录制、虚拟显示、双向剪贴板、摄像头镜像、键鼠/手柄模拟和 OTG 等能力，强调低延迟、低启动时间和 Linux/Windows/macOS 支持。",
+      "language": "C",
+      "stars": 154525,
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "microsoft/winget-pkgs",
+      "url": "https://github.com/microsoft/winget-pkgs",
+      "summary": "Windows Package Manager 的社区清单仓库，维护默认源中的应用包 manifest 文件。",
+      "use_cases": "适合提交或审核 Windows 应用包清单、了解 WinGet 包源的元数据规范，以及参与 Windows 软件分发社区协作。",
+      "highlights": "README 说明仓库主要存放安装器清单，支持多种安装器格式，并提供清单编写、测试、提交和新包请求等贡献文档。",
+      "language": null,
+      "stars": 11303,
+      "license": "MIT",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "ccxt/ccxt",
+      "url": "https://github.com/ccxt/ccxt",
+      "summary": "统一封装加密货币交易所和预测市场 API 的跨语言交易库，用于行情、账户和交易接入。",
+      "use_cases": "适合跨交易所获取市场数据、开发量化策略和交易机器人、做套利/回测，以及在多语言服务中复用统一交易接口。",
+      "highlights": "README 和 About 说明支持超过 100 个交易所及预测市场，并提供 JavaScript/TypeScript、Python、C#、PHP、Go、Java 和 Rust 接口，覆盖公开与私有 API。",
+      "language": "Python",
+      "stars": 44854,
+      "license": "MIT",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-11-11T11:01:01.819460+08:00",
+  "source": "https://github.com/explore"
+}
