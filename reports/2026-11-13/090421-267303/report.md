@@ -1,0 +1,125 @@
+# GitHub Explore 日报 · 2026-11-13
+
+状态：complete ｜ 来源：个性化推荐 ｜ 项目数：10
+
+[推荐来源](https://github.com/explore)
+
+已确认登录用户 liar-cy，页面显示基于用户兴趣的个性化推荐；按页面顺序覆盖全部 10 个仓库。页面末尾的 Trending、主题、文章、应用和导航内容未纳入。
+
+## 1. [vitejs/vite](https://github.com/vitejs/vite)
+
+面向现代 Web 项目的前端构建工具，由开发服务器和生产构建流程组成，目标是提供更快的启动与开发体验。
+
+- 适用场景：适合 Vue、React 等现代前端项目的本地开发、快速热更新和生产静态资源构建。
+- 主要特点：提供基于原生 ES 模块增强的开发服务器、快速 HMR、基于 Rolldown 的优化构建、插件 API 和带类型支持的 JavaScript API。
+- 主要语言：TypeScript
+- Stars（采集时）：83895
+- 许可证：MIT
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 2. [lipengjun92/platform-wxshop](https://github.com/lipengjun92/platform-wxshop)
+
+前后端开源的微信小程序商城，包含商城业务、后台管理接口与页面，并接入微信 AI 能力。
+
+- 适用场景：适合学习或搭建微信小程序商城、后台管理系统，以及需要 uniapp/H5 与原生小程序并行的项目。
+- 主要特点：采用 Java Spring Boot、Vue/Element UI、uniapp 和 MySQL，包含商城 API、后台、数据库脚本及多端商城目录；README 说明允许个人学习、毕设和商业使用，但需遵守 Apache 2.0 协议。
+- 主要语言：JavaScript
+- Stars（采集时）：455
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 3. [NVIDIA/Megatron-LM](https://github.com/NVIDIA/Megatron-LM)
+
+用于大规模 Transformer 模型训练的 GPU 优化库和参考训练项目，包含 Megatron-LM 与可组合的 Megatron Core。
+
+- 适用场景：适合研究团队进行分布式预训练和实验，也适合机器学习工程师构建自定义的大模型训练框架。
+- 主要特点：提供张量、流水线、数据、专家和上下文并行，混合精度，Transformer 构件，分布式检查点，以及训练、后训练和模型导出示例。
+- 主要语言：Python
+- Stars（采集时）：18385
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 4. [envoyproxy/envoy](https://github.com/envoyproxy/envoy)
+
+CNCF 托管的云原生高性能边缘、服务间和中间代理，面向容器化、动态调度和微服务环境。
+
+- 适用场景：适合构建服务网格和微服务基础设施中的数据平面、边缘代理、服务间通信与流量治理层。
+- 主要特点：提供高性能代理核心、官方文档和 FAQ、数据平面 API 关联项目、过滤器扩展生态，以及面向开发者的构建、测试和安全资料。
+- 主要语言：C++
+- Stars（采集时）：29229
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 5. [lock-upme/OPMS](https://github.com/lock-upme/OPMS)
+
+面向中小企业的项目管理与 OA 办公管理系统，将项目、任务和日常办公功能集中在一个平台。
+
+- 适用场景：适合需要扁平化项目协作、任务跟踪、客户管理、审批和基础 OA 功能的中小团队。
+- 主要特点：README 介绍了需求、任务、Bug、看板、甘特图、CRM、审批流程、工作报告、考勤、文档和 IM 等模块；技术栈为 Beego、Bootstrap、MySQL 和 Redis，Redis 缺失时不影响使用。
+- 主要语言：JavaScript
+- Stars（采集时）：1131
+- 许可证：GPL-2.0
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 6. [fushengqian/fuintCatering](https://github.com/fushengqian/fuintCatering)
+
+开源餐饮点餐、收银、会员与营销系统，覆盖小程序/H5、后台管理和线下门店运营。
+
+- 适用场景：适合餐厅、奶茶店、甜品店等实体门店搭建点餐收银、会员积分、卡券和私域营销系统。
+- 主要特点：采用 Spring Boot 3、MySQL、MyBatis Plus、Redis、Vue 3、Uniapp 和 Element Plus，提供点餐、收银、优惠券、储值卡、积分、会员权益、消息推送及云打印等功能，并支持多租户 SaaS 场景。
+- 主要语言：Java
+- Stars（采集时）：449
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 7. [ailabx/agilab](https://github.com/ailabx/agilab)
+
+面向开发者的 AI 落地实验室，围绕量化投资、多智能体和科研自动化维护配套代码与实践内容。
+
+- 适用场景：适合学习和实现量化策略、可生产化 Agent 系统，以及文献调研、实验设计和论文工作流自动化。
+- 主要特点：README 将项目分为量化投资、多智能体落地和科研自动化三条方向，并通过专栏同步提供工程化量化策略、回测和风险控制相关代码与内容。
+- 主要语言：Python
+- Stars（采集时）：971
+- 许可证：MIT
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 8. [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy)
+
+跨平台 Android 设备镜像与控制工具，通过 USB 或 TCP/IP 在电脑上显示并操作 Android 设备。
+
+- 适用场景：适合 Android 调试、演示、录屏、远程操作和键鼠控制，不需要 root 或在设备上安装应用。
+- 主要特点：支持 Linux、Windows 和 macOS，强调低延迟和低启动时间，提供音频转发、录制、虚拟显示、双向复制粘贴、摄像头镜像、键鼠/手柄及 OTG 等功能。
+- 主要语言：C
+- Stars（采集时）：154685
+- 许可证：Apache-2.0
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
+
+## 9. [jetlinks/jetlinks-ui-vue](https://github.com/jetlinks/jetlinks-ui-vue)
+
+JetLinks 物联网平台的 Vue 前端项目，将多个业务子仓库以内嵌方式组织在统一前端工程中。
+
+- 适用场景：适合 JetLinks 物联网平台前端开发、维护和需要按模块集成多个业务前端子仓库的场景。
+- 主要特点：README 说明业务子仓库通过 Git subtree 放在 src/modules 下，项目要求 Node.js 20+、pnpm 10+，并提供模块更新、环境配置和本地开发相关说明。
+- 主要语言：Vue
+- Stars（采集时）：190
+- 页面推荐原因：Based on repositories you've starred
+- 阅读状态：About 和 README 已读
+
+## 10. [angular/angular](https://github.com/angular/angular)
+
+基于 TypeScript/JavaScript 的现代 Web 开发平台，用于构建移动端和桌面端 Web 应用。
+
+- 适用场景：适合构建结构化的大型 Web 应用，使用组件、表单、路由、服务端渲染、动画和延迟加载等能力。
+- 主要特点：提供从入门到高级架构的文档、组件与模板、表单、API、Angular Elements、SSR、Schematics、懒加载和动画等开发能力，并配套 Angular CLI。
+- 主要语言：TypeScript
+- Stars（采集时）：101483
+- 许可证：MIT
+- 页面推荐原因：Based on people you follow
+- 阅读状态：About 和 README 已读
