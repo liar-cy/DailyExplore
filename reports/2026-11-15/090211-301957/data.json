@@ -1,0 +1,130 @@
+{
+  "status": "complete",
+  "personalized": true,
+  "observed_at": "2026-11-15T09:00:37.537841+08:00",
+  "notes": "已确认登录用户 liar-cy，Explore 页面显示基于关注对象、已收藏仓库和已收藏主题的个性化推荐区域；按页面顺序完整覆盖 10 个推荐仓库。页面末尾的公开 Trending、文章、主题、赞助和导航内容未纳入。",
+  "repositories": [
+    {
+      "name": "NVIDIA/Megatron-LM",
+      "url": "https://github.com/NVIDIA/Megatron-LM",
+      "summary": "面向大规模 Transformer 训练的 GPU 优化工具库与参考实现，包含 Megatron-LM 训练脚本和可组合的 Megatron Core 组件。",
+      "use_cases": "适合研究团队开展大模型训练实验、学习分布式训练，以及为自定义训练框架搭建高性能 Transformer 组件。",
+      "highlights": "支持张量、流水线、数据、专家和上下文并行，并覆盖 FP16、BF16、FP8、FP4 等混合精度；另有 Hugging Face 与 Megatron 检查点转换能力。",
+      "language": "Python",
+      "stars": "18395",
+      "license": null,
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "strapi/strapi",
+      "url": "https://github.com/strapi/strapi",
+      "summary": "可自托管的开源无头 CMS，用于快速构建内容 API，并为内容创作者提供可视化编辑界面。",
+      "use_cases": "适合需要统一内容模型和 API 的网站、移动应用或 IoT 前端，也适合希望自定义管理后台和部署方式的开发团队。",
+      "highlights": "提供可视化内容类型构建器、自动生成 REST 与 GraphQL API、角色权限、媒体库、国际化、草稿发布、插件系统和可定制管理后台，并支持多种数据库。",
+      "language": "TypeScript",
+      "stars": "73487",
+      "license": "Other",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "kesixin/QuestionWechatApp",
+      "url": "https://github.com/kesixin/QuestionWechatApp",
+      "summary": "一个包含前后端源码和数据库的小程序答题与刷题项目，面向微信小程序考试和题库场景。",
+      "use_cases": "适合毕业设计、企业内部培训与考核、考试活动，以及需要题目分类、搜索和在线答题功能的微信小程序项目。",
+      "highlights": "README 展示了微信小程序端、H5 端和题目搜索、分类、答题等功能，并提供完整源码，便于二次开发。",
+      "language": "JavaScript",
+      "stars": "1639",
+      "license": null,
+      "recommendation_reason": "Based on repositories you starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "fushengqian/fuintCar",
+      "url": "https://github.com/fushengqian/fuintCar",
+      "summary": "面向汽车美容、维修和保养门店的会员管理与营销系统，采用前后端分离架构并支持小程序和 H5。",
+      "use_cases": "适合汽车 4S 店、洗车店、汽修厂和汽车美容养护会所等多门店商家，用于会员、车辆、次卡、服务订单和商品销售管理。",
+      "highlights": "支持多租户多门店 SaaS 模式，后端使用 Java Spring Boot 3 与 MySQL，前端使用 UniApp、Vue 3 和 Element Plus，覆盖车辆绑定、次卡核销、保养与周边商品。",
+      "language": "Java",
+      "stars": "191",
+      "license": null,
+      "recommendation_reason": "Based on repositories you starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "pingcap/tidb",
+      "url": "https://github.com/pingcap/tidb",
+      "summary": "面向云原生场景的开源分布式 SQL 数据库，强调强一致、高可用以及计算与存储的弹性扩展。",
+      "use_cases": "适合需要横向扩展、事务与分析并存、MySQL 兼容或跨节点高可用的数据平台和云原生业务。",
+      "highlights": "通过两阶段提交提供分布式 ACID 事务，使用 Raft 多副本与自动故障转移，并支持计算存储分离、向量搜索和面向 agentic workload 的数据能力。",
+      "language": "Go",
+      "stars": "40735",
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "jetlinks/jetlinks-official-protocol",
+      "url": "https://github.com/jetlinks/jetlinks-official-protocol",
+      "summary": "JetLinks 官方设备接入协议的参考实现，用于理解和开发物联网设备自定义接入协议。",
+      "use_cases": "适合对接 MQTT 或 HTTP 设备、实现 JetLinks 设备接入，以及根据具体认证、加密和业务场景调整协议实现。",
+      "highlights": "README 同时说明 MQTT 接入和 HTTP Bearer 认证方式，并提供属性上报示例；项目定位是协议参考实现而不是不加调整即可用于所有场景的成品。",
+      "language": "Java",
+      "stars": "118",
+      "license": null,
+      "recommendation_reason": "Based on repositories you starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "apache/spark",
+      "url": "https://github.com/apache/spark",
+      "summary": "用于大规模数据处理的统一分析引擎，提供通用计算图执行能力及 SQL、机器学习、图计算和流处理工具。",
+      "use_cases": "适合构建批处理、交互式 SQL、流处理、机器学习和图分析等大数据处理管道。",
+      "highlights": "提供 Scala、Java、Python 和 R API，包含 Spark SQL、pandas API on Spark、MLlib、GraphX 与 Structured Streaming 等高层组件。",
+      "language": "Scala",
+      "stars": "44523",
+      "license": "Apache-2.0",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "lock-upme/OPMS",
+      "url": "https://github.com/lock-upme/OPMS",
+      "summary": "面向中小企业的项目管理与 OA 办公管理系统，将 PMS 项目管理和日常办公功能结合在一起。",
+      "use_cases": "适合扁平化管理的微型和中小型企业，用于需求、任务、Bug、客户、审批、考勤、文档和工作报告等协同管理。",
+      "highlights": "基于 Beego 和 Bootstrap，使用 MySQL 与 Redis，包含项目任务视图、CRM、审批流程、工作报告以及 OA 功能；README 说明无 Redis 时也不影响使用。",
+      "language": "JavaScript",
+      "stars": "1131",
+      "license": "GPL-2.0",
+      "recommendation_reason": "Based on repositories you starred",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter",
+      "summary": "Google 的跨平台 UI SDK，用单一代码库构建移动端、Web 和桌面端的应用体验。",
+      "use_cases": "适合希望共享 UI 与业务代码、同时面向 Android、iOS、Web、Windows、macOS 和 Linux 发布应用的团队。",
+      "highlights": "以 Dart 为核心，提供跨平台渲染与 Material 组件体系，官方 README 覆盖安装、文档、开发 Wiki 和贡献入口。",
+      "language": "Dart",
+      "stars": "181270",
+      "license": "BSD-3-Clause",
+      "recommendation_reason": "Based on people you follow",
+      "read_status": "About 和 README 已读"
+    },
+    {
+      "name": "wayn111/waynboot-mall",
+      "url": "https://github.com/wayn111/waynboot-mall",
+      "summary": "基于 Spring Boot 3 和 Java 17 的多模块微商城后端，覆盖移动端与后台接口、商品交易和订单治理。",
+      "use_cases": "适合学习或搭建包含商品、SKU、购物车、订单、支付、库存、搜索和消息处理的商城后端，也适合作为微商城业务拆分参考。",
+      "highlights": "集成 Spring Security、JWT、MyBatis-Plus、MySQL、Redis、Elasticsearch、RabbitMQ 和本地消息表，按商品、交易、库存等领域拆分，并覆盖支付、延迟消息、对账与测试。",
+      "language": "Java",
+      "stars": "1283",
+      "license": "MIT",
+      "recommendation_reason": "Based on repositories you starred",
+      "read_status": "About 和 README 已读"
+    }
+  ],
+  "archived_at": "2026-11-15T09:02:11.301957+08:00",
+  "source": "https://github.com/explore"
+}
